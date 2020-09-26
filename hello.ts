@@ -1,5 +1,3 @@
-export function forEach<T>(items: T[], callback: (item: T) => any) {
-  for (let index = 0; index < items.length; index++) {
-    callback(items[index]);
-  }
+export default function hello(name: string): string {
+  return `Hello, ${name}!`;
 }
